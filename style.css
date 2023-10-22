@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large; color: rgb(14, 0, 0)
+   
+}
+
+title{
+    font-size: large; color: black;
+}
+
+
+ul {
+    
+    column-count: 2;
+    column-gap: 3em;
+    column-rule: 1px solid #bbb;
+    column-width: 140px;
+}
+li{
+    margin: 1px solid black;
+    border: 1px
+}
+body 
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium; color: rgb(243, 239, 239);
+    height: 100%;
+    background: repeating-linear-gradient(white,red,black);
+
+}
+.button-checkout
+{
+background-color: rgb(247, 244, 244);
+
+}
+em{
+    background: linear-gradient(180deg, red 0%, #eeebeb 100%);
+    transition: all .1s;
+}
+em:hover{
+    background: linear-gradient(180deg, rgb(241, 7, 7) 0%, #e9e6e6 100%);
+    transition: all .1s;
+
+
+}
+
+button 
+{
+   
+   background-color: red;
+   transition: 0.5s black;
+ 
+}
+@media (hover:hover) {
+    button:hover {
+        background: mediumseagreen;
+        color: #fff;
+    }
+}
+
+
+h2{
+    background-position: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.aside1{
+    background-color: black;
+}
